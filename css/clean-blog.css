@@ -53,20 +53,23 @@ hr.small {
   border-color: white;
 }
 
+hr.small2 {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 2px;
+  border-color: black;
+  margin-bottom: 25px;
+}
 
 .process{
   background-image: url(../img/bg-2.jpg);
   background-size: cover;
   color: white;
+  padding-bottom: 30px;
  
 }
 
-.process .process2{
-
-  margin: 0px;
-
-
-}
+.btn-default:hover,.btn-default:focus{background-color:#0085a1;border:1px solid #0085a1;color:#fff}
 
 .navbar-custom {
   position: absolute;
