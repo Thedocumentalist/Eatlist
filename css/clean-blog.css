@@ -19,6 +19,16 @@ img{
   width: 120px;
 }
 
+.btn-lg{
+  background-color: #0085a1;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: white;
+  border: 2px solid #00FF80;
+  
+}
+
+
 p a {
   text-decoration: underline;
 }
@@ -69,7 +79,7 @@ hr.small2 {
  
 }
 
-.btn-default:hover,.btn-default:focus{background-color:#0085a1;border:1px solid #0085a1;color:#fff}
+
 
 .navbar-custom {
   position: absolute;
@@ -347,10 +357,10 @@ footer .list-inline {
   color: #0085a1;
 }
 
-.btn-default:hover,
-.btn-default:focus {
+.btn-lg:hover,
+.btn-lg:focus {
   background-color: #0085a1;
-  border: 1px solid #0085a1;
+  border: 2px solid #00FFFF;
   color: white;
 }
 .pager {
