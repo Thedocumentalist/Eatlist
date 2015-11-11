@@ -20,11 +20,11 @@ img{
 }
 
 .btn-lg{
-  background-color: #0085a1;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: white;
-  border: 2px solid #00FFFF;
+  background-color: #399395;
+ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: white;
+  font-size: 14px;
+
   
 }
 
@@ -96,7 +96,7 @@ hr.small2 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 30px;
 }
 .navbar-custom .nav li a {
@@ -365,9 +365,9 @@ footer .list-inline {
 
 .btn-lg:hover,
 .btn-lg:focus {
-  background-color: #0085a1;
-  border: 2px solid #66FF66;
   color: white;
+
+
 }
 .pager {
   margin: 20px 0 0;
