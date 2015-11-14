@@ -175,6 +175,7 @@ hr.small2 {
   }
 }
 .intro-header {
+  text-align: center;
   background-color: #808080;
   background: no-repeat center center;
   background-attachment: scroll;
