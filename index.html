@@ -32,6 +32,13 @@
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
+<link rel="stylesheet" href="compiled/flipclock.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <script src="compiled/flipclock.js"></script>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -90,6 +97,11 @@
                         <span class="subheading">Recevez chaque semaine directement dans votre boîte mail une sélection de produits alimentaires bons, beaux, et sains qui vont régaler vos papilles et votre bonne humeur</span>
 
 <BR/>
+
+
+    <div class="clock" style="margin:2em;"></div>
+    <div class="message"></div>
+
 <center>
 
 <!-- Begin MailChimp Signup Form -->
@@ -323,6 +335,34 @@
   ga('send', 'pageview');
 
 </script>
+
+
+    <script type="text/javascript">
+        var clock;
+        
+        $(document).ready(function() {
+            var clock;
+
+            clock = $('.clock').FlipClock({
+                clockFace: 'DailyCounter',
+                autoStart: false,
+                callbacks: {
+                    stop: function() {
+                        $('.message').html('The clock has stopped!')
+                    }
+                }
+            });
+                    
+            clock.setTime(220880);
+            clock.setCountdown(true);
+            clock.start();
+
+        });
+    </script>
+
+
+    </body>
+</html>
 
 </body>
 
